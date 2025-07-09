@@ -41,4 +41,4 @@ jobs:
             BUN_VERSION=${{ steps.meta.outputs.bun_version }}
             PUPPETEER_VERSION=${{ steps.meta.outputs.puppeteer_version }}
           push: true
-          tags: registry: ghcr.io/cubic-lab/bun-puppeteer:${{ steps.meta.outputs.image_tag }}
+          tags: ghcr.io/cubic-lab/bun-puppeteer:${{ steps.meta.outputs.image_tag }}
