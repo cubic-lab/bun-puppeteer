@@ -5,4 +5,4 @@ FROM oven/bun:${BUN_VERSION}
 
 USER bun
 
-RUN bunx puppeteer@${PUPPETEER_VERSION} browsers install chrome
+RUN bunx puppeteer@${PUPPETEER_VERSION} browsers install chrome --install-dependencies
