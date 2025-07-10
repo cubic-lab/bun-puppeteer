@@ -5,7 +5,7 @@ FROM oven/bun:${BUN_VERSION}-debian
 
 ENV \
     # Configure default locale (important for chrome-headless-shell).
-    LANG=en_US.UTF-8
+    LANG=en_US.UTF-8 \
     BUN_UID=10042
 
 RUN apt-get update \
